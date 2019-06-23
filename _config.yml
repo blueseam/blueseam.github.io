@@ -4,9 +4,9 @@ description: 'Test blog of blueseam'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 baseurl: ''
-disqus: ''
+# disqus: ''
 email: 'blueseam@gmail.com'
-mailchimp-list: ''
+# mailchimp-list: ''
 
 include: ["_pages"]
 permalink: /:title/
