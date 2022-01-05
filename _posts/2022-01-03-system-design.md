@@ -17,6 +17,14 @@ image: assets/images/h1.png
    - Consistent Hashing
    - CAP Theorem
    - Load balancing
+     - Type of distribution
+       1. Random
+       2. Round-robin
+       3. Weight for CPU & Memory cycle
+     - To utilize full scalabillity & redundancy(Add 3 LB[3-Tier Architecutre])
+       1. User << LB1 >> Web Server
+       2. Web Server << LB2 >> App Server / Cache Server
+       3. App Server / Cache Server << LB3 >> DB
    - Queues
    - Caching
    - Replication
