@@ -19,6 +19,14 @@ plugins:
   - jekyll-seo-tag
   
 authors:
+    blueseam:
+      name:           YongSung Hwang
+      site:           https://blueseam.github.io
+      avatar:         assets/images/hys2.jpg
+      bio:            "Architector(Techenical, Applicaiont), Public/Private cloud expert, OpenAPI"
+      email:          blueseam@gmail.com
+      twitter:        https://twitter.com/blueseam
+
     sal:
       name:           Sal
       site:           https://www.wowthemes.net
@@ -43,8 +51,8 @@ defaults:
       path: "_posts"
     values:
       layout: post
-      author: sal
-      avatar: assets/images/avatar1.jpg
+      author: blueseam
+      avatar: assets/images/hys2.jpg
       
   # all pages
   - scope:
