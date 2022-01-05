@@ -1,8 +1,12 @@
 ---
 layout: post
 title:  "System Design"
-categories: [ Jekyll, tutorial ]
+categories: [ blueseam, tutorial ]
 image: assets/images/3.jpg
 ---
 
-# 1. System Design Basics
+# System Design Notes
+
+## 1. System Design Basics
+
+
