@@ -28,6 +28,29 @@ image: assets/images/h1.png
        1. User << LB1 >> Web Server
        2. Web Server << LB2 >> App Server / Cache Server
        3. App Server / Cache Server << LB3 >> DB
+     - Smart Clients
+       - Takes a pool of service hosts & balances load
+         - detects hosts that are not responsive
+         - recovered hosts
+         - addition of new hosts
+       - Load balancing functionality to DB(Cache service)
+       - Attractive solution for developers
+       - As system grows > LBs (Standalone Servers)
+     - Hardware Load Balancers
+       - Expensive but high preformance
+       - Not trivial to configure
+       - Large companies tond to avoid this config or use it as 1st point of contact to their system to serve user requests
+       - Intra network uses smart clients / hybrid solution for load balancing traffic
+     - Software Load Balancers
+       - No pain of creation of smart client
+       - No cost of purchasing dedicated hardware
+       - hybrid approach : HAProxy(OSS Load balancer)
+         1. Running on client machine(Client managed by HAProxy)
+         2. Running on intermediate server(Server Side  Components)
+         3. HAProxy
+            - manages health checks
+            - removal & addtion of machines
+            - balances requests a/c pools
    - Queues
    - Caching
    - Replication
