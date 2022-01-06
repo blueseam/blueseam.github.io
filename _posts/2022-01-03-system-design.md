@@ -55,6 +55,16 @@ image: assets/images/h1.png
    - Caching
    - Replication
    - SQL vs No-SQL
+     - SQL(Relational Database)
+       1. Structured
+       2. Predefined schema
+       3. Data in rows & columns
+       4. MySQL, Oracle, MS SQL Server, SQLite, Postgre, MariaDB 
+     - NO SQL(Non Relational Dataase)
+       1. Unstructured
+       2. distributed
+       3. dynamic schema
+       4. DB Method: Key-Value Stores, Document DB, Wide-column DB, Graph DB
    - Indexes
    - Proxies
    - Data Partitioning
