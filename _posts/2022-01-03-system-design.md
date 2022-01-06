@@ -65,9 +65,7 @@ image: assets/images/h1.png
        2. distributed
        3. dynamic schema
        4. DB Method: Key-Value Stores, Document DB, Wide-column DB, Graph DB
-
-![NoSQL Description](/assets/images/h2.png)
-
+          ![NoSQL Description](/assets/images/h2.png)
    - Indexes
    - Proxies
    - Data Partitioning
