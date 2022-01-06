@@ -7,6 +7,8 @@ image: assets/images/h1.png
 
 # System Design Notes
 
+**I found these notes sometime ago, i am not the author.**
+
 1. Try to break th problem into simple modules (Top Down approach)
 
 2. Talk about the trade-off (No soltion is perfect)
@@ -66,6 +68,10 @@ image: assets/images/h1.png
        3. dynamic schema
        4. DB Method: Key-Value Stores, Document DB, Wide-column DB, Graph DB
           ![NoSQL Description](/assets/images/h2.png)
+       5. High Level differences between SQL & NoSQL
+          | Property | SQL | NoSQL |
+          |---|---|---|
+          |A|B|C|
    - Indexes
    - Proxies
    - Data Partitioning
