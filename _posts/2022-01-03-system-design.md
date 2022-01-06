@@ -54,6 +54,11 @@ image: assets/images/h1.png
             - removal & addtion of machines
             - balances requests a/c pools
    - Queues
+     -  effectively manages requests in large-scal distubuted system
+     -  In small systems > write are fast
+     -  In complex systems > high incomming load & individual write take mass time
+     -  To achieve high performance & availaility (System need to the asynchronous > Queues)
+     -  difficult for fair & balanced distribution
    - Caching
    - Replication
    - SQL vs No-SQL
@@ -69,9 +74,9 @@ image: assets/images/h1.png
        4. DB Method: Key-Value Stores, Document DB, Wide-column DB, Graph DB
           ![NoSQL Description](/assets/images/h2.png)
        5. High Level differences between SQL & NoSQL
-| Property | SQL | NoSQL |
-|---|---|---|
-|A|B|C|
+         | Property | SQL | NoSQL |
+         |---|---|---|
+         |A|B|C|
    - Indexes
    - Proxies
    - Data Partitioning
