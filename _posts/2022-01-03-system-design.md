@@ -69,9 +69,9 @@ image: assets/images/h1.png
        4. DB Method: Key-Value Stores, Document DB, Wide-column DB, Graph DB
           ![NoSQL Description](/assets/images/h2.png)
        5. High Level differences between SQL & NoSQL
-          | Property | SQL | NoSQL |
-          |---|---|---|
-          |A|B|C|
+| Property | SQL | NoSQL |
+|---|---|---|
+|A|B|C|
    - Indexes
    - Proxies
    - Data Partitioning
