@@ -76,6 +76,8 @@ Setting up ADV & SDK Manager
 
 4. XCode install
 
+https://developer.apple.com/forums/thread/678469
+
 I ran into this same problem and resolved it in the following steps.
 ) Open Xcode
 
