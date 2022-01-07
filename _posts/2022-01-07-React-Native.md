@@ -71,7 +71,12 @@ blueseam@MacBookPro HelloWorld % npm start
 https://developer.android.com/studio
 
 
+
+
 ```
+
+Setting up ADV & SDK Manager
+
 
 4. XCode install
 
