@@ -69,14 +69,10 @@ blueseam@MacBookPro HelloWorld % npm start
 
 ```
 https://developer.android.com/studio
-
-
-
-
 ```
 
 Setting up ADV & SDK Manager
-
+![Android Studio](/assets/images/h3.png)
 
 4. XCode install
 
