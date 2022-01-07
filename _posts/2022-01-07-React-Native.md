@@ -76,5 +76,12 @@ Setting up ADV & SDK Manager
 
 4. XCode install
 
+I ran into this same problem and resolved it in the following steps.
+) Open Xcode
 
+) go to preferences
+
+) go to locations tab
+
+) select an Xcode version in the select labeled "Command Line Tools"
 
