@@ -8,7 +8,9 @@ image: assets/images/1.png
 # React Native Notes
 
 1. Install Homebrew
+
 Homebrew installs the stuff you need that Apple(or Linux) didn't
+
 ```
 blueseam@MacBookPro ~ % /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -16,6 +18,7 @@ blueseam@MacBookPro ~ % brew update
 ```
 
 2. Install nodejs(mpm)
+
 ```
 blueseam@MacBookPro ~ % brew install node
 
