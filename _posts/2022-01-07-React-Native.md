@@ -68,13 +68,38 @@ blueseam@MacBookPro HelloWorld % npm start
 4. Install React Native CLI(Developer Tools)
 
 ```
-npm install -g react-native-cli
+blueseam@MacBookPro ~ % brew tap AdoptOpenJDK/openjsk
 
-npx react-native --version
+blueseam@MacBookPro ~ % brew search jdk
 
-sudo gem install cocoapods
+blueseam@MacBookPro ~ % brew install adoptopenjdk
 
-pod --version
+blueseam@MacBookPro ~ % java --version
+openjdk 16.0.1 2021-04-20
+OpenJDK Runtime Environment AdoptOpenJDK-16.0.1+9 (build 16.0.1+9)
+OpenJDK 64-Bit Server VM AdoptOpenJDK-16.0.1+9 (build 16.0.1+9, mixed mode, sharing)
+
+
+blueseam@MacBookPro ~ % npm install -g react-native-cli
+
+added 85 packages, and audited 86 packages in 3s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+blueseam@MacBookPro ~ % npx react-native --version
+react-native-cli: 2.0.1
+
+
+
+blueseam@MacBookPro ~ % sudo gem install cocoapods
+
+blueseam@MacBookPro ~ % pod --version
+1.11.2
+
 ```
 
 
