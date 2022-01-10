@@ -65,6 +65,19 @@ blueseam@MacBookPro works % cd HelloWorld
 blueseam@MacBookPro HelloWorld % npm start
 ```
 
+4. Install React Native CLI(Developer Tools)
+
+```
+npm install -g react-native-cli
+
+npx react-native --version
+
+sudo gem install cocoapods
+
+pod --version
+```
+
+
 5. Android Studio install
 
 ```
