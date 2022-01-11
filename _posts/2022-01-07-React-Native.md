@@ -2,7 +2,7 @@
 layout: post
 title:  "React Native Study"
 categories: [ blueseam, tutorial ]
-image: assets/images/1.png
+image: assets/images/h3.png
 ---
 
 # React Native Notes
