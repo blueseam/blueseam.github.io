@@ -68,17 +68,34 @@ blueseam@MacBookPro HelloWorld % npm start
 4. Install React Native CLI(Developer Tools)
 
 ```
-blueseam@MacBookPro ~ % brew tap AdoptOpenJDK/openjsk
+blueseam@MacBookPro ~ % brew install node
+
+blueseam@MacBookPro ~ % brew install watchman
+
+blueseam@MacBookPro ~ % sudo gem install cocoapods
+
+blueseam@MacBookPro ~ % pod --version
+1.11.2
 
 blueseam@MacBookPro ~ % brew search jdk
 
-blueseam@MacBookPro ~ % brew install adoptopenjdk
+blueseam@MacBookPro ~ % brew install --cask adoptopendjk/openjdk/adoptopenjdk15
+
+--android(gradle) not yet adoptopenjdk16
 
 blueseam@MacBookPro ~ % java --version
 openjdk 16.0.1 2021-04-20
 OpenJDK Runtime Environment AdoptOpenJDK-16.0.1+9 (build 16.0.1+9)
 OpenJDK 64-Bit Server VM AdoptOpenJDK-16.0.1+9 (build 16.0.1+9, mixed mode, sharing)
 
+blueseam@MacBookPro ~ % vi $HOME/.bash_profile
+...
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+...
 
 blueseam@MacBookPro ~ % npm install -g react-native-cli
 
@@ -92,13 +109,6 @@ found 0 vulnerabilities
 
 blueseam@MacBookPro ~ % npx react-native --version
 react-native-cli: 2.0.1
-
-
-
-blueseam@MacBookPro ~ % sudo gem install cocoapods
-
-blueseam@MacBookPro ~ % pod --version
-1.11.2
 
 ```
 
