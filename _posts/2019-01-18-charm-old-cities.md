@@ -1,20 +1,30 @@
 ---
 layout: post
-title:  "Could we reinvent the charm of old cities"
-author: jane
+title:  "Reason for resignation"
+author: blueseam
 categories: [ Jekyll, tutorial ]
 image: assets/images/home.jpg
 tags: [sticky]
 ---
 
-Bucharest’s history alternated periods of development and decline from the early settlements in antiquity until its consolidation as the national capital of Romania late in the 19th century. First mentioned as the “Citadel of București” in 1459, it became the residence of the famous Wallachian prince Vlad III the Impaler.
+1. 리더십 이슈
+넷플릭스는 부고 메일이라는 시스템을 통해 퇴사자 발생시 2주동안 HR과 리더가 면담을 합니다. 목적은 조직문화를 지키는 것이죠.
+한 부서에서 3명의 핵심인재가 연속해서 이탈을 했는데 마지막 3번째에 그 이유를 알게 되었습니다.
+매니저가 객관적이지 않은 기준으로 주관적 평가를 하고 있었고, 3번째 퇴사자와 함께 퇴사를 시켜버렸죠.
+우리나라에서는 리더십 피드백을 진행하고 동의하지 않거나 행동 개선이 이뤄지지 않으면 면팀이 가장 최선이지 않을까요?
 
-#### Early 18th century woodcut of Bucharest
+2. 미래 성장 가능성
+하나 더 팀이 미래 성장할 가능성이 없거나 미래 전략이 보이지 않게 되면 동일하게 일의 의미와 영향을 잃게 됩니다. 리더가 조직의 미래 비전과 미션을 찾고, 팀원들의 개인 성장에 얼라인 시켜줘야 하는 이유이죠.
 
-The Ottomans appointed Greek administrators (Phanariotes) to run the town from the 18th century. A short-lived revolt initiated by Tudor Vladimirescu in 1821 led to the end of the rule of Constantinople Greeks in Bucharest.[19]
+3. 일의 의미와 영향 이슈
+(미래 전략이 없거나, 다른 팀에서 그 팀을 바라보는 관점이 동료. 외주)
+흔치는 않지만 조직에서 반복된 퇴사자가 발생하는 부서를 중요하지 않은 부서로 평가하고, 외주사 대하듯 할 경우입니다.
+특히 지원부서에서 많이 발생하는데, 회사의 전체 프로세스를 모두 이해하고 같은 목적을 위해 일하고 있는 원팀이라는 것과 그들이 우리에게 주는 유익을 생각해 보도록 해야합니다.
+지원조직은 내가 일에 몰입하고 내 과업이 성공하도록 돕는 동료일 수 있거든요. 그들이 나의 불편을 해결해주기 때문에 제가 몰입할 수 있는거라고요.
 
-The Old Princely Court (Curtea Veche) was erected by Mircea Ciobanul in the mid-16th century. Under subsequent rulers, Bucharest was established as the summer residence of the royal court. During the years to come, it competed with Târgoviște on the status of capital city after an increase in the importance of southern Muntenia brought about by the demands of the suzerain power – the Ottoman Empire.
+4. 외부 환경
+(우리가 이겨내지 못하는 외부의 고용환경)
+경쟁사가 연봉 1-2천만원, 스톡과 스톡옵션을 퍼부어 준다면 감당이 안됩니다.
+거기다 한 두곳이 아닌 다방면에서 그렇게 한다면요.
 
-Bucharest finally became the permanent location of the Wallachian court after 1698 (starting with the reign of Constantin Brâncoveanu).
-
-Partly destroyed by natural disasters and rebuilt several times during the following 200 years, and hit by Caragea’s plague in 1813–14, the city was wrested from Ottoman control and occupied at several intervals by the Habsburg Monarchy (1716, 1737, 1789) and Imperial Russia (three times between 1768 and 1806). It was placed under Russian administration between 1828 and the Crimean War, with an interlude during the Bucharest-centred 1848 Wallachian revolution. Later, an Austrian garrison took possession after the Russian departure (remaining in the city until March 1857). On 23 March 1847, a fire consumed about 2,000 buildings, destroying a third of the city.
+리더십 이슈는 1번과 2번이고 3번과 4번은 회사와 CEO 이슈입니다.
