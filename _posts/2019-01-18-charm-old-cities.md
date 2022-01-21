@@ -2,7 +2,7 @@
 layout: post
 title:  "Reason for resignation"
 author: blueseam
-categories: [ Jekyll, tutorial ]
+categories: [ blueseam, tutorial ]
 image: assets/images/home.jpg
 tags: [sticky]
 ---
