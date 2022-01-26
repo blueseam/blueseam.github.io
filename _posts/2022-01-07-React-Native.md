@@ -122,6 +122,16 @@ https://developer.android.com/studio
 Setting up ADV & SDK Manager
 ![Android Studio](/assets/images/h3.png)
 
+
+
+Setting up SDK Manager
+![SDK Manager](/assets/images/h4.png)
+
+Install(Add) SDK
+* Intel x86 Atom_64 System Image
+* Google APIs Intel x86 Atom_64 System Image
+* Google Play Intel x86 Atom_64 System Image
+
 4. XCode install
 
 https://developer.apple.com/forums/thread/678469
