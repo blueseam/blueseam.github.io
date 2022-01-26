@@ -132,6 +132,12 @@ Install(Add) SDK
 * Google APIs Intel x86 Atom_64 System Image
 * Google Play Intel x86 Atom_64 System Image
 
+
+Setting up Device Manager
+![Device Manager](/assets/images/h5.png)
+
+
+
 4. XCode install
 
 https://developer.apple.com/forums/thread/678469
