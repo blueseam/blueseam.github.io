@@ -79,7 +79,7 @@ blueseam@MacBookPro ~ % pod --version
 
 blueseam@MacBookPro ~ % brew search jdk
 
-blueseam@MacBookPro ~ % brew install --cask adoptopenjdk15
+blueseam@MacBookPro ~ % brew install --cask adoptopenjdk/openjdk/adoptopenjdk15
 
 --android(gradle) not yet adoptopenjdk16
 
