@@ -97,6 +97,13 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 ...
 
+
+blueseam@MacBookPro ~ % source ~/.bash_profile
+
+
+blueseam@MacBookPro ~ % adb version
+
+
 blueseam@MacBookPro ~ % npm install -g react-native-cli
 
 added 85 packages, and audited 86 packages in 3s
