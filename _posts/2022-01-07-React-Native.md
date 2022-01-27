@@ -158,3 +158,20 @@ I ran into this same problem and resolved it in the following steps.
 
 ) select an Xcode version in the select labeled "Command Line Tools"
 
+
+
+5. Sample Program
+
+```
+npx react-native init SampleApp
+
+cd SampleApp
+
+npm run ios
+
+npm run android
+
+```
+
+
+
