@@ -51,4 +51,18 @@ gcloud info
 
 ```
 
+6. kubectl installation
+
+```
+# components list
+gcloud components list
+
+# install kubectl
+gcloud components install kubectl
+
+```
+
+
+
+
 
