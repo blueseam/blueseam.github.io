@@ -62,6 +62,24 @@ gcloud components install kubectl
 
 ```
 
+7. set-up configuration
+
+```
+  125  gcloud config list
+  126  kubectl
+  127  gcloud components install kubectl
+  128  kubectl config view
+  129  gcloud container clusters get-credentials ###-kube
+  130  gcloud config set compute/zone asia-northeast3-a
+  131  kubectl config view
+  132  gcloud container clusters get-credentials ###-kube
+  133  kubectl get node
+```
+
+
+
+
+
 
 
 
