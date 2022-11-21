@@ -9,7 +9,7 @@ image: assets/images/mariadb.png
 
 
 ### 1. MariaDB - Replication
-##### 1.1 Prefreences information
+##### 1.1 Preferences information
 ```
 Host : mariadb01(Master), mariadb02(Slave)
 IP : 172.16.25.100, 172.16.25.101
