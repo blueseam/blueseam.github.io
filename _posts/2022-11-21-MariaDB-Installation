@@ -2,7 +2,7 @@
 layout: post
 title:  "MariaDB Installation & Replication Configuration"
 categories: [ blueseam, tutorial ]
-image: assets/images/h3.png
+image: assets/images/mariadb.png
 ---
 
 # MariaDB Installation & Replication Configuration Notes
