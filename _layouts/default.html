@@ -32,6 +32,8 @@
     {% include tracking-header.html %}
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8482421872117723" crossorigin="anonymous"></script>
+    <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+</script>
 </head>
 
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
@@ -73,6 +75,10 @@
     <script src="{{site.baseurl}}/assets/js/theme.js"></script>
 
 
+    <!-- Ad -->
+    <amp-auto-ads type="adsense" data-ad-client="ca-pub-8482421872117723">
+    </amp-auto-ads>
+    <!-- Ad -->
     <!-- Footer -->
     <footer class="bg-white border-top p-3 text-muted small">
         <div class="container">
