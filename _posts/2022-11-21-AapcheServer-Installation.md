@@ -3,6 +3,7 @@ layout: post
 title:  "Apache Server Installation"
 categories: [ blueseam, tutorial ]
 image: assets/images/apache.png
+tags: [featured]
 ---
 
 # Apache Server Installation
