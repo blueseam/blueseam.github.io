@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AXSoft | 아키텍처 & 기술 실사 (Tech Due Diligence)</title>
+    <meta name="description" content="AI, 클라우드, 애플리케이션 아키텍처 전문 컨설팅 및 스타트업 기술 실사를 제공합니다.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Noto Sans KR for Korean text -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            /* 한글 폰트를 우선 적용하도록 변경 */
+            font-family: 'Noto Sans KR', 'Outfit', sans-serif;
+            word-break: keep-all;
+            /* 한국어 줄바꿈 최적화 */
+        }
+
+        .btn,
+        .nav-links a {
+            font-family: 'Noto Sans KR', 'Outfit', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Background Elements for Aesthetics -->
+    <div class="bg-shape bg-shape-1"></div>
+    <div class="bg-shape bg-shape-2"></div>
+
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">AXSoft<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#services">아키텍처</a></li>
+                <li><a href="#due-diligence">기술 실사</a></li>
+                <li><a href="#approach">접근 방식</a></li>
+                <li><a href="index.html" class="btn btn-outline"><i class="fas fa-globe"></i> EN</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <div class="badge fade-in">최고의 기술 자문</div>
+                <h1 class="fade-in delay-1">미래를 설계하고,<br>혁신을 검증합니다.</h1>
+                <p class="fade-in delay-2">스타트업과 투자자의 성공을 위해, 견고한 AI, 클라우드, 애플리케이션 아키텍처 설계와 엄격한 기술 실사(Tech Due
+                    Diligence)를 제공합니다.</p>
+                <div class="hero-buttons fade-in delay-3">
+                    <a href="#services" class="btn btn-primary">서비스 알아보기</a>
+                    <a href="#due-diligence" class="btn btn-secondary">기술 실사 문의</a>
+                </div>
+            </div>
+            <div class="hero-visual fade-in delay-4">
+                <div class="glass-card visual-card float-1">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI 전략</h3>
+                </div>
+                <div class="glass-card visual-card float-2">
+                    <i class="fas fa-cloud"></i>
+                    <h3>클라우드 네이티브</h3>
+                </div>
+                <div class="glass-card visual-card float-3">
+                    <i class="fas fa-search-dollar"></i>
+                    <h3>기술 실사 분석</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Architecture Services Section -->
+        <section class="services section-padding" id="services">
+            <div class="section-header reveal">
+                <h2>엔터프라이즈급 아키텍처 설계</h2>
+                <p>미래 지향적인 선도 기업을 위해 최적화된 확장 가능하고 안전하며 완벽한 시스템을 구축합니다.</p>
+            </div>
+            <div class="grid-container">
+                <div class="service-card glass-panel reveal">
+                    <div class="icon-wrapper"><i class="fas fa-network-wired"></i></div>
+                    <h3>AI 아키텍처</h3>
+                    <p>확장 가능한 ML 및 LLM 파이프라인을 설계하고 배포합니다. 데이터 수집부터 모델 서빙까지, 실질적인 비즈니스 가치를 창출하는 AI 솔루션을 구축합니다.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> MLOps 파이프라인 구축</li>
+                        <li><i class="fas fa-check"></i> 생성형 AI 솔루션 도입</li>
+                        <li><i class="fas fa-check"></i> 대규모 데이터 엔지니어링</li>
+                    </ul>
+                </div>
+                <div class="service-card glass-panel reveal reveal-delay-1">
+                    <div class="icon-wrapper"><i class="fas fa-cloud-arrow-up"></i></div>
+                    <h3>클라우드 아키텍처</h3>
+                    <p>성능, 비용, 회복성을 극대화하기 위해 인프라를 최적화합니다. AWS, GCP, Azure 등 멀티 클라우드 전략 및 설계에 특화되어 있습니다.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> 서버리스 및 마이크로서비스</li>
+                        <li><i class="fas fa-check"></i> 코드형 인프라 (IaC) 구성</li>
+                        <li><i class="fas fa-check"></i> 클라우드 운영 비용 최적화</li>
+                    </ul>
+                </div>
+                <div class="service-card glass-panel reveal reveal-delay-2">
+                    <div class="icon-wrapper"><i class="fas fa-layer-group"></i></div>
+                    <h3>애플리케이션 아키텍처</h3>
+                    <p>기존 레거시 시스템을 현대화하거나, 비즈니스 확장에 흔들림 없는 강력한 소프트웨어 아키텍처 패턴을 기반으로 새롭게 구축합니다.</p>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check"></i> 고성능 분산 시스템 설계</li>
+                        <li><i class="fas fa-check"></i> REST/GraphQL API 및 게이트웨이</li>
+                        <li><i class="fas fa-check"></i> 무중단 서비스 및 고가용성(HA)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Approach Section -->
+        <section class="approach section-padding" id="approach">
+            <div class="section-header reveal">
+                <h2>우리의 접근 방식</h2>
+                <p>깊이 있는 기술적 전문성과 비즈니스 성과를 연결하는 방법입니다.</p>
+            </div>
+            <div class="approach-grid">
+                <div class="approach-item reveal">
+                    <div class="approach-number">01</div>
+                    <h3>발견 및 정렬 (Discovery)</h3>
+                    <p>비즈니스 목표, 현재 기술 스택 및 문제점을 깊이 이해하는 것부터 시작합니다. 아키텍처는 기술 자체를 위한 것이 아니라 비즈니스를 위해 존재해야 합니다.</p>
+                </div>
+                <div class="approach-item reveal reveal-delay-1">
+                    <div class="approach-number">02</div>
+                    <h3>철저한 분석 (Analysis)</h3>
+                    <p>새로운 시스템을 설계하든 기존 시스템을 검사하든, 검증된 프레임워크를 적용하여 보안, 확장성 및 유지 보수성을 평가합니다.</p>
+                </div>
+                <div class="approach-item reveal reveal-delay-2">
+                    <div class="approach-number">03</div>
+                    <h3>실행 가능한 전략 (Strategy)</h3>
+                    <p>단순한 이론적 보고서가 아닌, 구체적이고 우선순위가 정해진 로드맵, 아키텍처 다이어그램 및 명확한 구현 가이드라인을 제공합니다.</p>
+                </div>
+                <div class="approach-item reveal reveal-delay-3">
+                    <div class="approach-number">04</div>
+                    <h3>실행 지원 (Execution)</h3>
+                    <p>PoC(개념 증명) 개발부터 핵심적인 초기 구현 단계 감독까지, 우리의 전략이 현실이 되도록 끝까지 지원합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Due Diligence Section -->
+        <section class="due-diligence section-padding dark-section" id="due-diligence">
+            <div class="diligence-container">
+                <div class="diligence-text reveal">
+                    <div class="badge">투자자 및 창업자를 위한 전문 Audit</div>
+                    <h2>스타트업 기술 실사 (Due Diligence)</h2>
+                    <p>올바른 기술 평가는 단순히 소스코드를 훑어보는 것에 그치지 않습니다. 아키텍처의 확장성, 치명적인 보안 리스크, 숨겨진 기술 부채, 그리고 엔지니어링 팀의 실질 역량을
+                        종합적으로 통찰해야 합니다.</p>
+                    <p>저희는 벤처 캐피탈(VC), 사모펀드(PE) 및 M&A 대상 기업을 위한 매우 엄격하고 객관적인 기술 감사를 제공하여, 투자 의사결정의 불확실성을 완전히 제거합니다.</p>
+                    <div class="stats-row">
+                        <div class="stat">
+                            <h4>코드 베이스 품질 및 기술 부채</h4>
+                            <div class="progress-bar">
+                                <div class="fill" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <h4>글로벌 확장을 위한 레질리언스(Scalability)</h4>
+                            <div class="progress-bar">
+                                <div class="fill" style="width: 92%;"></div>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            <h4>데이터 인프라 보안 및 컴플라이언스</h4>
+                            <div class="progress-bar">
+                                <div class="fill" style="width: 78%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="diligence-cards">
+                    <div class="diligence-card reveal reveal-delay-1">
+                        <i class="fas fa-shield-halved"></i>
+                        <h4>리스크 사전 평가</h4>
+                        <p>기업의 재무적 손실로 이어지기 전, 치명적인 보안 결함과 아키텍처 측면의 병목 현상을 미리 짚어냅니다.</p>
+                    </div>
+                    <div class="diligence-card reveal reveal-delay-2">
+                        <i class="fas fa-chart-line"></i>
+                        <h4>스케일러빌리티(확장성) 검증</h4>
+                        <p>현재의 기술 스택과 인프라가 사용자 수 10배, 100배의 폭발적인 성장을 감당할 수 있는지 로드 테스트 및 수치화합니다.</p>
+                    </div>
+                    <div class="diligence-card reveal reveal-delay-3">
+                        <i class="fas fa-users-gear"></i>
+                        <h4>엔지니어링 팀 역량 평가</h4>
+                        <p>단기 아웃소싱 의존도를 파악하고, 기존 개발 팀의 애자일 한 개발 문화 및 내부 역량을 철저히 검증합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deleted Contact Form Section -->
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">AXSoft<span>.</span></a>
+                <p>현대 비즈니스를 주도하는 전문 기술 실사 및 아키텍처 자문 그룹입니다.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h4>서비스</h4>
+                    <a href="#">AI 아키텍처</a>
+                    <a href="#">클라우드 전략</a>
+                    <a href="#">앱 현대화</a>
+                </div>
+                <div class="link-column">
+                    <h4>기술 실사 (Due Diligence)</h4>
+                    <a href="#">VC 대상 기술 감사</a>
+                    <a href="#">M&A 테크 리스크 분석</a>
+                    <a href="#">보안 및 취약점 검토</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 AXSoft Consulting. All rights reserved.</p>
+            <div class="social-links email-link">
+                <a href="mailto:blueseam@gmail.com"><i class="fas fa-envelope"></i> blueseam@gmail.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
